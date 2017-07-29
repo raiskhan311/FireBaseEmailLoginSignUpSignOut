@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		043374A21F2C673200E83EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374A11F2C673200E83EED /* AppDelegate.swift */; };
-		043374A41F2C673200E83EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374A31F2C673200E83EED /* ViewController.swift */; };
+		043374A41F2C673200E83EED /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374A31F2C673200E83EED /* SignInViewController.swift */; };
 		043374A71F2C673200E83EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043374A51F2C673200E83EED /* Main.storyboard */; };
 		043374A91F2C673200E83EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043374A81F2C673200E83EED /* Assets.xcassets */; };
 		043374AC1F2C673200E83EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043374AA1F2C673200E83EED /* LaunchScreen.storyboard */; };
+		043374B41F2C687500E83EED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374B31F2C687500E83EED /* SignUpViewController.swift */; };
+		043374B61F2C688A00E83EED /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374B51F2C688A00E83EED /* SignOutViewController.swift */; };
+		043374B81F2C6DE600E83EED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043374B71F2C6DE600E83EED /* GoogleService-Info.plist */; };
+		043374BA1F2C703A00E83EED /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374B91F2C703A00E83EED /* AlertController.swift */; };
+		043374BC1F2C866800E83EED /* CustomRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043374BB1F2C866800E83EED /* CustomRoundButton.swift */; };
+		B491621BEC2330838ACBAD0F /* Pods_FirebaseEmailSignUpSignInSignOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D708691EA79FF2178808AF1 /* Pods_FirebaseEmailSignUpSignInSignOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0433749E1F2C673200E83EED /* FirebaseEmailSignUpSignInSignOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseEmailSignUpSignInSignOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043374A11F2C673200E83EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043374A31F2C673200E83EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043374A31F2C673200E83EED /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		043374A61F2C673200E83EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043374A81F2C673200E83EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043374AB1F2C673200E83EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043374AD1F2C673200E83EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043374B31F2C687500E83EED /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		043374B51F2C688A00E83EED /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		043374B71F2C6DE600E83EED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		043374B91F2C703A00E83EED /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		043374BB1F2C866800E83EED /* CustomRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRoundButton.swift; sourceTree = "<group>"; };
+		7F74DFEDA6C1F0329AB34C54 /* Pods-FirebaseEmailSignUpSignInSignOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailSignUpSignInSignOut.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseEmailSignUpSignInSignOut/Pods-FirebaseEmailSignUpSignInSignOut.release.xcconfig"; sourceTree = "<group>"; };
+		8D708691EA79FF2178808AF1 /* Pods_FirebaseEmailSignUpSignInSignOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseEmailSignUpSignInSignOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F960EFEE3428DF8459B0BF96 /* Pods-FirebaseEmailSignUpSignInSignOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseEmailSignUpSignInSignOut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseEmailSignUpSignInSignOut/Pods-FirebaseEmailSignUpSignInSignOut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B491621BEC2330838ACBAD0F /* Pods_FirebaseEmailSignUpSignInSignOut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				043374A01F2C673200E83EED /* FirebaseEmailSignUpSignInSignOut */,
 				0433749F1F2C673200E83EED /* Products */,
+				F5511F8DA31F47E5DFA7851D /* Pods */,
+				800663E0FD89101F36766A94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				043374A11F2C673200E83EED /* AppDelegate.swift */,
-				043374A31F2C673200E83EED /* ViewController.swift */,
+				043374A31F2C673200E83EED /* SignInViewController.swift */,
+				043374B31F2C687500E83EED /* SignUpViewController.swift */,
+				043374B91F2C703A00E83EED /* AlertController.swift */,
+				043374B51F2C688A00E83EED /* SignOutViewController.swift */,
 				043374A51F2C673200E83EED /* Main.storyboard */,
+				043374BB1F2C866800E83EED /* CustomRoundButton.swift */,
 				043374A81F2C673200E83EED /* Assets.xcassets */,
 				043374AA1F2C673200E83EED /* LaunchScreen.storyboard */,
 				043374AD1F2C673200E83EED /* Info.plist */,
+				043374B71F2C6DE600E83EED /* GoogleService-Info.plist */,
 			);
 			path = FirebaseEmailSignUpSignInSignOut;
+			sourceTree = "<group>";
+		};
+		800663E0FD89101F36766A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D708691EA79FF2178808AF1 /* Pods_FirebaseEmailSignUpSignInSignOut.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5511F8DA31F47E5DFA7851D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F960EFEE3428DF8459B0BF96 /* Pods-FirebaseEmailSignUpSignInSignOut.debug.xcconfig */,
+				7F74DFEDA6C1F0329AB34C54 /* Pods-FirebaseEmailSignUpSignInSignOut.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043374B01F2C673200E83EED /* Build configuration list for PBXNativeTarget "FirebaseEmailSignUpSignInSignOut" */;
 			buildPhases = (
+				B61BF756A7F18839EF71AF08 /* [CP] Check Pods Manifest.lock */,
 				0433749A1F2C673200E83EED /* Sources */,
 				0433749B1F2C673200E83EED /* Frameworks */,
 				0433749C1F2C673200E83EED /* Resources */,
+				5438E88AACF76360499DF56C /* [CP] Embed Pods Frameworks */,
+				C42C43A71400655C07B6C161 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043374AC1F2C673200E83EED /* LaunchScreen.storyboard in Resources */,
+				043374B81F2C6DE600E83EED /* GoogleService-Info.plist in Resources */,
 				043374A91F2C673200E83EED /* Assets.xcassets in Resources */,
 				043374A71F2C673200E83EED /* Main.storyboard in Resources */,
 			);
@@ -131,12 +174,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5438E88AACF76360499DF56C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseEmailSignUpSignInSignOut/Pods-FirebaseEmailSignUpSignInSignOut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61BF756A7F18839EF71AF08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C42C43A71400655C07B6C161 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseEmailSignUpSignInSignOut/Pods-FirebaseEmailSignUpSignInSignOut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0433749A1F2C673200E83EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043374A41F2C673200E83EED /* ViewController.swift in Sources */,
+				043374B41F2C687500E83EED /* SignUpViewController.swift in Sources */,
+				043374BA1F2C703A00E83EED /* AlertController.swift in Sources */,
+				043374A41F2C673200E83EED /* SignInViewController.swift in Sources */,
+				043374BC1F2C866800E83EED /* CustomRoundButton.swift in Sources */,
+				043374B61F2C688A00E83EED /* SignOutViewController.swift in Sources */,
 				043374A21F2C673200E83EED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,11 +351,12 @@
 		};
 		043374B11F2C673200E83EED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F960EFEE3428DF8459B0BF96 /* Pods-FirebaseEmailSignUpSignInSignOut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseEmailSignUpSignInSignOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jf.FirebaseEmailSignUpSignInSignOut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FirebaseEmailSignUpSignInSignOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -268,11 +364,12 @@
 		};
 		043374B21F2C673200E83EED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F74DFEDA6C1F0329AB34C54 /* Pods-FirebaseEmailSignUpSignInSignOut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseEmailSignUpSignInSignOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jf.FirebaseEmailSignUpSignInSignOut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FirebaseEmailSignUpSignInSignOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +394,7 @@
 				043374B21F2C673200E83EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
